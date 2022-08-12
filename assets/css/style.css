@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', 'sans-serif', 'Arial', 'Helvetica';
+    font-size: 13px;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+.login{
+    height: calc(100vh);
+    background-image: url("../imagens/TIPRINCIPAL.jpg");
+    background-color: rgb(17, 35, 89, 0.99);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginarea{
+    height: 550px;
+    width: 350px;
+    background-color: rgb(255, 255, 255, 0.95);
+    color: #112359;
+    border-radius: 20px;
+}
+.loginitens{
+    margin: 20px;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.logo img{
+    width: 190px;
+
+}
+.titulo{
+    margin-top: 50px;
+    text-align: center;
+}
+.inputs{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+#login, #senha{
+    height: 40px;
+    width: 190px;
+    border: 0;
+    border-bottom: solid 2px #ccc;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: rgb(255, 255, 255, 0.10);
+}
+#login{
+    margin-bottom: 15px;
+}
+.buttons{
+    align-items: center;
+    text-align: center;
+
+}
+#btLogar{
+    border: 0;
+    background-color: #112359;
+    color: #fff;
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#btLogar:hover{
+    cursor: pointer;
+    background-color: #40bf2c;
+}
+.noError{
+    margin: 0;
+    color: rgb(194, 26, 26);
+    font-size:x-small;
+    align-items: center;
+    align-content: center;  
+    margin-bottom: 20px;
+    text-align: center; 
+    display: none;
+}
+.error{
+    margin: 0;
+    color: rgb(194, 26, 26);
+    font-size:x-small;
+    align-items: center;
+    align-content: center;  
+    margin-bottom: 20px;
+    text-align: center; 
+}
+#errorIcon{
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+}
+

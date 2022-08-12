@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Cliente</title>
+    <link rel="stylesheet" href="../css/portal.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav>    
+          <ul class="nav-list">
+            <li onclick="relatorio1()"><a href="#"><img src="../imagens/COMERCIAL.png" alt="">Comercial</a></li>
+            <li onclick="relatorio2()"><a href="#"><img src="../imagens/FINANCEIRO.png" alt="">Financeiro</a></li>
+            <li onclick="relatorio3()"><a href="#"><img src="../imagens/LOGISTICA.png" alt="">Logística</a></li>
+            <li onclick="relatorio4()"><a href="#"><img src="../imagens/FISCAL.png" alt="">Fiscal</a></li>
+            <li onclick="relatorio5()"><a href="#"><img src="../imagens/CONTABILIDADE.png" alt="">Contábil</a></li>
+          </ul>    
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <div>
+            <img style="margin-left: 2vh; padding-bottom: 3px; padding-top: 3px; height: 35px;" src="../imagens/LOGO EXPERT BI.png" alt="">
+          </div>
+          <div style="right: 0; position: absolute; color: #173589; margin-right: 5vh;">
+              <h6 id="nameUser" style="display: inline; margin-right: 2vh; padding-top: 5px;">Olá Usuário</h6>
+              <a href="../../index.html"><img class="sair" src="../imagens/icon_sair.png" alt=""></a>
+         </div>        
+        </nav>
+      </header>
+      <body>
+        <div class="report">
+            <iframe id="relatorio" title="Análise Gerencial Vendas - AGV - RDV´s" height="100%" width="100%" src="https://app.powerbi.com/view?r=eyJrIjoiYTkzOGU2OTQtZmRiYS00ZTQ5LTllMWMtNmNhNzdjMTlhNGIzIiwidCI6ImM1MzYyNjkzLTQ1NGYtNDE0NS1hZjFiLWM5OTFjNzlmNjY2ZSJ9" frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+        <div class="rodape"><p>Desenvolvido por Expert Solution - Todos os direitos reservados 2022</p></div>
+      </body>
+
+      <footer>
+
+      </footer>
+
+    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
