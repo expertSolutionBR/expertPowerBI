@@ -8,7 +8,7 @@ function passValid(campo) {
         $('.inputForm').attr('placeholder', '')
     } 
     else {
-        document.location.href = "https://expertsolutionbr.github.io/assets/pages/portal.html"
+        document.location.href = "https://expertsolutionbr.github.io/expertPowerBI/assets/pages/portal.html"
     }   
 }
 
